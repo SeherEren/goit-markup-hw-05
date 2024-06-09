@@ -680,7 +680,7 @@ img{
     margin-bottom: 16px;
 }
 
-.modal-div {
+.form-div {
     margin-bottom: 8px;
 }
 
@@ -746,7 +746,7 @@ img{
 
 }
 
-.form-div .textarea :focus{
+.textarea:focus{
     border-color: #4D5AE5;
 }
 
@@ -777,7 +777,7 @@ img{
 
 }
 
-.form-check:checked +.privacy-span {
+.form-check:checked + .check-privacytext >.privacy-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
