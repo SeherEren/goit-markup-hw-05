@@ -588,7 +588,7 @@ img{
     color: #ffffff;
 }
 
-.footer .form .submit .form-button{
+.footer .form .form-button{
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -606,7 +606,7 @@ img{
     border-radius: 4px;
 }
 
-.footer .form .submit .form-button .form-icon{
+.footer .form .form-button .form-icon{
     margin-left: 16px;
 }
 
