@@ -729,13 +729,14 @@ img{
     margin-bottom: 16px;
 }
 
-.textarea{
+.form-div .textarea{
     width: 100%;
     height: 120px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46,47,66,0.4);
+    border: 1px solid rgba(46,47,66,0.4);
     border-radius: 4px;
     background-color: transparent;
     padding: 8px 16px;
@@ -745,7 +746,7 @@ img{
 
 }
 
-.textarea :focus{
+.form-div .textarea :focus{
     border-color: #4D5AE5;
 }
 
@@ -753,7 +754,7 @@ img{
     margin-bottom: 24px;
 }
 
-.check-privactText{
+.check-privacytext{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -761,7 +762,7 @@ img{
 
 }
 
-.check-privactText .privacy-span{
+.check-privacytext .privacy-span{
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46,47,66,0.4);
@@ -776,13 +777,13 @@ img{
 
 }
 
-.user-privacy :checked +.privacy-span {
+.form-check:checked +.privacy-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
 
-.check-privacytext .a{
+.check-privacytext .submit-link{
     color: #4d5ae5;
 
 }
